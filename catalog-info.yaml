@@ -44,3 +44,23 @@ spec:
   owner: choonsikDobby
   lifecycle: development
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: employees-api
+  description: The employees API
+  tags:
+    - employees
+    - query
+    - rest
+  links:
+    - url: https://github.com/gsoeldner-sc/backstage-sample-app
+      title: Server Root
+      icon: github
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: user:default/guido.soeldner
+  definition: |
+    {"openapi":"3.0.1","info":{"title":"OpenAPI definition","version":"v0"},"servers":[{"url":"https://petstore3.swagger.io/","description":"Generated server url"}],"paths":{"/employees/{id}":{"get":{"tags":["employee-controller"],"operationId":"one","parameters":[{"name":"id","in":"path","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"$ref":"#/components/schemas/Employee"}}}}}},"put":{"tags":["employee-controller"],"operationId":"replaceEmployee","parameters":[{"name":"id","in":"path","required":true,"schema":{"type":"integer","format":"int64"}}],"requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/Employee"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"$ref":"#/components/schemas/Employee"}}}}}},"delete":{"tags":["employee-controller"],"operationId":"deleteEmployee","parameters":[{"name":"id","in":"path","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"OK"}}}},"/employees":{"get":{"tags":["employee-controller"],"operationId":"all","responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"array","items":{"type":"string"}}}}}}}}},"components":{"schemas":{"Employee":{"type":"object"}}}}
