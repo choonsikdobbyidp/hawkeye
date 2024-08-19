@@ -42,5 +42,5 @@ metadata:
 spec:
   type: service
   owner: piotr.minkowski@gmail.com
-  lifecycle: experimental
+  lifecycle: development
 
