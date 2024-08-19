@@ -10,6 +10,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     kong-manager/service-name: 0d9fc993-bbfa-4861-b862-a3a808125203
     kong-manager/instance: /kong-manager/api
+    kong-manager/workspace: default
     argocd/app-name: vite-app
     nexus-repository-manager/docker.image-name: backstage-image
   links:
