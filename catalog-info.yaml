@@ -8,7 +8,7 @@ metadata:
     github.com/project-slug: choonsikdobbyidp/hawkeye
     sonarqube.org/project-key: choonsikdobbyidp_hawkeye
     argocd/app-name: vite-app
-    nexus-repository-manager/docker.image-name: docker-hosted/v2:backstage-image
+    nexus-repository-manager/docker.image-name: backstage-image
   tags:
     - spring-boot
     - java
