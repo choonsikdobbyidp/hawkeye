@@ -7,6 +7,9 @@ metadata:
     circleci.com/project-slug: github/choonsikdobbyidp/hawkeye
     github.com/project-slug: choonsikdobbyidp/hawkeye
     sonarqube.org/project-key: choonsikdobbyidp_hawkeye
+    backstage.io/techdocs-ref: dir:.
+    kong-manager/service-name: 0d9fc993-bbfa-4861-b862-a3a808125203
+    kong-manager/instance: /kong-manager/api
     argocd/app-name: vite-app
     nexus-repository-manager/docker.image-name: backstage-image
   links:
