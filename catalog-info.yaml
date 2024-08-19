@@ -9,6 +9,10 @@ metadata:
     sonarqube.org/project-key: choonsikdobbyidp_hawkeye
     argocd/app-name: vite-app
     nexus-repository-manager/docker.image-name: backstage-image
+  links:
+  - url: https://dashboard.example.com
+    title: My Dashboard
+    icon: dashboard
   tags:
     - spring-boot
     - java
