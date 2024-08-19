@@ -7,7 +7,7 @@ metadata:
     circleci.com/project-slug: github/choonsikdobbyidp/hawkeye
     github.com/project-slug: choonsikdobbyidp/hawkeye
     sonarqube.org/project-key: choonsikdobbyidp_hawkeye
-    nexus-repository-manager/docker.image-name: docker-hosted/v2/backstage-image
+    nexus-repository-manager/docker.image-name: docker-hosted/backstage-image
   tags:
     - spring-boot
     - java
