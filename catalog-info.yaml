@@ -41,6 +41,6 @@ metadata:
     - sonarqube
 spec:
   type: service
-  owner: piotr.minkowski@gmail.com
+  owner: choonsikDobby
   lifecycle: development
 
