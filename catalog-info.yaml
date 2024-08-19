@@ -14,9 +14,24 @@ metadata:
     argocd/app-name: vite-app
     nexus-repository-manager/docker.image-name: backstage-image
   links:
-  - url: https://dashboard.example.com
-    title: My Dashboard
-    icon: dashboard
+    - title: Prometheus
+      url: https://google.ch
+      icon: prometheus
+    - title: Grafana
+      url: https://google.ch
+      icon: grafana
+    - title: Google BigQuery
+      url: https://google.ch
+      icon: googlebigquery
+    - title: 1.1.1.1
+      url: https://google.ch
+      icon: 1dot1dot1dot1
+    - title: Github copilot
+      url: https://google.ch
+      icon: githubcopilot
+    - title: Backstage
+      url: https://google.ch
+      icon: backstage
   tags:
     - spring-boot
     - java
@@ -28,3 +43,4 @@ spec:
   type: service
   owner: piotr.minkowski@gmail.com
   lifecycle: experimental
+
