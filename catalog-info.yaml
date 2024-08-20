@@ -30,8 +30,20 @@ metadata:
       url: https://google.ch
       icon: githubcopilot
     - title: Backstage
-      url: https://google.ch
+      url: https://backstage.io/
       icon: backstage
+    - title: AWS
+      url: https://aws.amazon.com/ko/free
+      icon: amazonwebservices
+    - title: Kibana
+      url: https://backstage.io/
+      icon: kibana
+    - title: Kafka
+      url: https://backstage.io/
+      icon: apachekafka
+    - title: ArgoCD
+      url: https://saas-argo.duckdns.org:30711/
+      icon: argo
   tags:
     - spring-boot
     - java
