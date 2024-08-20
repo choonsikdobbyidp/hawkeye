@@ -47,6 +47,9 @@ metadata:
     - title: ArgoCD
       url: https://backstage.io/
       icon: argo
+    - title: Kong
+      url: https://backstage.io/
+      icon: kong
       
   tags:
     - spring-boot
