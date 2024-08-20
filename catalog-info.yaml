@@ -14,18 +14,18 @@ metadata:
     argocd/app-name: vite-app
     nexus-repository-manager/docker.image-name: backstage-image
   links:
+    - title: Jira
+      url: https://saas-argo.duckdns.org:30711/
+      icon: jira
+    - title: Confluence
+      url: https://saas-argo.duckdns.org:30711/
+      icon: confluence
     - title: Prometheus
       url: https://google.ch
       icon: prometheus
     - title: Grafana
       url: https://google.ch
       icon: grafana
-    - title: Google BigQuery
-      url: https://google.ch
-      icon: googlebigquery
-    - title: 1.1.1.1
-      url: https://google.ch
-      icon: 1dot1dot1dot1
     - title: Github copilot
       url: https://google.ch
       icon: githubcopilot
@@ -41,9 +41,13 @@ metadata:
     - title: Kafka
       url: https://backstage.io/
       icon: apachekafka
+    - title: Harbor
+      url: https://backstage.io/
+      icon: harbor
     - title: ArgoCD
-      url: https://saas-argo.duckdns.org:30711/
+      url: https://backstage.io/
       icon: argo
+      
   tags:
     - spring-boot
     - java
