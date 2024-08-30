@@ -15,10 +15,10 @@ metadata:
     nexus-repository-manager/docker.image-name: backstage-image
   links:
     - title: Jira
-      url: https://lpaas.atlassian.net/jira/core/projects/OQOW/board
+      url: https://google.ch
       icon: jira
     - title: Confluence
-      url: https://lit-hpss.atlassian.net/wiki/home
+      url: https://google.ch
       icon: confluence
     - title: Prometheus
       url: https://google.ch
